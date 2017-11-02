@@ -49,7 +49,6 @@ float reduceSize = 0.80;
 float increaseSize = 1.25;
 float translateUnits = 10.0;
 
-
 float inverseX, inverseY, inverseZ;
 float regularX, regularY, regularZ;
 
@@ -120,6 +119,18 @@ Texture* texture0;
 Texture* texture1;
 Texture* texture2;
 Texture* texture3;
+Texture* texture4;
+Texture* texture5;
+Texture* texture6;
+Texture* texture7;
+Texture* texture8;
+Texture* texture9;
+
+enum
+{
+	texture0, texture1, texture2, texture3, texture4, texture5, texture6,texture7,texture8,texture9, NUM_TEX
+};
+GLuint gaggleofTextures[NUM_TEX];
 
 //colors! (mainnly used for testing purposes)
 vec3 col1=vec3(1.0f, 0.2f, 0.2f); // Reddish
